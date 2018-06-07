@@ -11,15 +11,10 @@
     "cryptography",
     "signature"
   ],
-  "author": {
-    "name": "Phil Filippak",
-    "email": "xenohunter@yandex.ru",
-    "url": "https://github.com/xenohunter"
-  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wavesplatform/waves-api.git"
+    "url": "https://github.com/Lunes-platform/lunes-js-api.git"
   },
   "main": "dist/waves-api.min.js",
   "types": "raw/src/WavesAPI.d.ts",
