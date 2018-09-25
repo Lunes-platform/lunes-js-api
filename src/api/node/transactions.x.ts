@@ -269,8 +269,8 @@ export const postCreateAlias = createRemapper({
 });
 
 export const sendCreateAliasTx = wrapTxRequest(TX_TYPE_MAP.createAlias, preCreateAlias, postCreateAlias, (postParams) => {
-    return fetch('/alias/broadcast/create', postParams);
-}/*, true*/) as TTransactionRequest;
+    return fetch('/addresses/broadcast/alias-create', postParams);
+}, true) as TTransactionRequest;
 
 
 /* MASS TRANSFER */
